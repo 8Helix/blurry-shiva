@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.bg{
+    background: url('https://i1.wp.com/www.wordzz.com/wp-content/uploads/2017/12/Shiva-Yog-Statue-4K-Wallpaper.jpg?ssl=1') no-repeat center center/cover; 
+    position: absolute;
+    top: 0;
+    left: -85px;
+    width: calc(100vw + 85px);
+    height: 100vh;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
